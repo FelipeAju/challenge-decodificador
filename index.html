@@ -1,11 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
+    <title>Decodificador</title>  
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <header class="header">
+       
+    </header>
+
+    <main class="main">
+        <img class="logo" src="images/logo-alura.svg" alt="Logo da Alura">
+        <section>
+            <textarea class="text-input"></textarea>
+            <div class="form-group">
+                <img class="img-alert" src="" alt="imagem de alerta">
+                <label for="text-input">Apenas letras minúsculas e sem acento.</label>
+            </div>
+            <div class="button">
+                <button class="button__encrypt">
+                    Criptografar
+                </button>
+                <button class="button__decrypt">
+                    Descriptografar
+                </button>
+            </div>
+        </section>
+
+        <section>
+            <textarea class="final-text" cols="30" rows="10"></textarea>
+            <button class="button__copy">Copiar</button>
+        </section>
+        
+    </main>
+    <footer>Desenvolvido por Alberto Felipe em 2024</footer>
+    <script src="script.js"></script>
 </body>
 </html>
