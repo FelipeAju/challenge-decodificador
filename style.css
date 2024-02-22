@@ -1,34 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #E9ECF8;
+    --secundary-color: #0A3871;
+    --tertiary-color: #FFFFFF;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Inter", sans-serif;
-    background-color: #E9ECF8;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+    background-color: var(--primary-color);
+}
+
+.logo {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
 }
 
 .main {
+    display: flex;
     position: relative;
     width: 100%;
     height: 100%;
 }
 
-.titulo {
-    padding: 15px;
-    width: 30vw;
-    margin: auto;
+.input-text {
+    border: none;
+    color: var(--secundary-color);
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder {color: var(--secundary-color);}
+    .input-text:focus {
+        outline: none;
+    }
+
+.final-text {
+    background-color: var(--tertiary-color);
+    border: none;
+    width: 50%;
+    border-radius: 24px;
+    color: var(--secundary-color);
+    margin-left: 98px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.final-text:focus {
+    outline: none;
+}
+
+.button {
+    display: flex;
+    margin-top: 18px;
+}
+
+.button__decrypt {
+    background: var(--primary-color);
+    border: 1px solid var(--secundary-color);
+    border-radius: 24px;
+    color: var(--secundary-color);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    
 }
 
 .button__encrypt {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 24px;
-
-    position: static;
+    background-color: var(--secundary-color);
+    border: 1px solid var(--secundary-color);
+    border-radius: 24px;
+    color: var(--tertiary-color);
+    cursor: pointer;
     width: 328px;
+    height: 67px;
 }
 
-.header__img {
-    width: 5%;
-    padding: 1rem 0 2rem;
+.button__copy {
+    border: 1px solid var(--secundary-color);
+    border-radius: 24px;
+    color: var(--secundary-color);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 25px;
+    position: relative;
+    width: 336px;
+}
+
+.label-text {
+    color: #495057;
+    font-size: 18px;
+}
+
+.footer {
+    border: 1px solid var(--secundary-color);
+    background-color: var(--secundary-color);
+    color: var(--tertiary-color);
+    margin-top: 7rem;
 }
