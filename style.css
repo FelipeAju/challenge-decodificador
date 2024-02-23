@@ -3,53 +3,86 @@
 :root {
     --primary-color: #E9ECF8;
     --secundary-color: #0A3871;
-    --tertiary-color: #FFFFFF;
+    --tertiary-color: #f3f4f8;
 }
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 32px;
     font-weight: 400;
-    line-height: 150%;
+    line-height: 150%; */
+    box-sizing: border-box;
     background-color: var(--primary-color);
+    
 }
 
+/* body {
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+} */
+
+/* .header {
+    display: flex;
+    box-sizing: border-box;
+} */
+
 .logo {
-    margin-left: 10px;
-    padding-top: 10px;
-    width: 2%;
+    width: 8%;
+    margin: 1rem 3rem 2rem 1rem;
+    /* margin-right: 4rem;
+    margin-bottom: 2rem;
+    p-left: 1rem; */
+}
+
+.header-image {
+    width: 36rem;
+    height: 7rem;
+    margin-left: 34.1rem;
+}
+
+.caption {
+    margin-left: 45rem;
 }
 
 .main {
+    padding-left: 2rem;
     display: flex;
     position: relative;
     width: 100%;
     height: 100%;
+    gap: 3rem;
 }
 
 .input-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.8rem;
     border: none;
     color: var(--secundary-color);
-    margin-top: 90px;
+    margin-top: 2.8rem;
     text-transform: lowercase;
 }
 
-::placeholder {color: var(--secundary-color);}
+::placeholder {
+    color: var(--secundary-color);
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+}
     .input-text:focus {
-        outline: none;
-    }
+    outline: none;
+}
 
 .final-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
     background-color: var(--tertiary-color);
     border: none;
-    width: 50%;
-    border-radius: 24px;
+    border-radius: 1rem;
     color: var(--secundary-color);
-    margin-left: 98px;
-    margin-top: 20px;
-    position: relative;
+    /* margin-left: 90px;*/
+    margin-top: .5rem;
+    position: fixed;
 }
 
 .final-text:focus {
@@ -58,51 +91,66 @@
 
 .button {
     display: flex;
-    margin-top: 18px;
+    margin-top: 1rem;
+    gap: 1.2rem;
 }
 
 .button__decrypt {
+    font-size: 1.2rem;
+    font-weight: 600;
     background: var(--primary-color);
     border: 1px solid var(--secundary-color);
-    border-radius: 24px;
+    border-radius: 1.5rem;
     color: var(--secundary-color);
     cursor: pointer;
-    height: 67px;
-    margin-left: 30px;
-    width: 328px;
+    /* height: 4rem;
+    margin-left: 30px; */
+    width: 20rem;
     
 }
 
 .button__encrypt {
+    font-size: 1.2rem;
+    font-weight: 600;
     background-color: var(--secundary-color);
     border: 1px solid var(--secundary-color);
-    border-radius: 24px;
+    border-radius: 1.5rem;
     color: var(--tertiary-color);
     cursor: pointer;
-    width: 328px;
-    height: 67px;
+    width: 20rem;
+    height: 4.1rem;
 }
 
+.div-final-text {
+    flex-direction: column;
+} 
+
 .button__copy {
+    font-size: 1.2rem;
+    font-weight: 600;
     border: 1px solid var(--secundary-color);
-    border-radius: 24px;
+    border-radius: 1.5rem;
     color: var(--secundary-color);
     cursor: pointer;
-    height: 67px;
-    margin-left: 108px;
-    margin-top: 25px;
-    position: relative;
-    width: 336px;
+    height: 3.8rem;
+    margin-left: 5.5rem;
+    margin-top: 23rem;
+    position: absolute;
+    width: 20rem;
 }
 
 .label-text {
-    color: #495057;
-    font-size: 18px;
+    color: var(--secundary-color);
+    font-size: .1rem;
 }
 
 .footer {
-    border: 1px solid var(--secundary-color);
+    /* border: 1px solid var(--secundary-color); */
+    padding: .5rem;
     background-color: var(--secundary-color);
     color: var(--tertiary-color);
-    margin-top: 7rem;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 3rem;
 }
+

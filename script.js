@@ -67,3 +67,20 @@ function decrypt(stringDecrypt) {
 
 // console.log(encrypt(test));
 // console.log(decrypt(test2));
+
+function copyText() {
+    const finalText = document.querySelector('.final-text')
+    let standBy = finalText.value;
+
+    navigator.clipboard.writeText(standBy);    
+}
+
+const buttonCopy = document.querySelector('.button__copy');
+buttonCopy.onclick = copyText;
+
+function outputText() {
+    const buttonCopy = document.querySelector('.button__copy');
+    buttonCopy.style.display = 'block';
+    const finalText = document.querySelector('.final-text')[0];
+    finalText.style.display = 'block';
+}
