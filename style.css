@@ -23,7 +23,7 @@
 }
 
 .header-image {
-    width: 26rem;
+    width: 31rem;
     height: 7rem;
     margin-left: 34.1rem;
 }
@@ -121,10 +121,10 @@
     color: var(--secundary-color);
     cursor: pointer;
     height: 3.8rem;
-    margin-left: 4.5rem;
+    margin-left: 5.5rem;
     margin-top: 23rem;
     position: absolute;
-    width: 13rem;
+    width: 16rem;
 }
 
 .footer {
@@ -198,6 +198,6 @@
     }
 
     .footer {
-        margin-top: 0;
+        font-size: .7rem;
     }
 }
