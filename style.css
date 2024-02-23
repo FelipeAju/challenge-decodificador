@@ -137,3 +137,31 @@
     margin-top: 3rem;
 }
 
+@media (max-width: 1200px) {
+    body {
+        height: 100vh;
+    }
+
+    .header-image {
+        display: none;
+    }
+
+    .caption {
+        display: none;
+    }
+    .main {
+        flex-direction: column;
+    }
+
+    .input-text {
+        width: auto;
+    }
+    
+    .final-text {
+        position: absolute;
+        width: auto;
+    }
+    .footer {
+        margin-top: auto;
+    }
+}
