@@ -167,28 +167,32 @@
     }
 
     .button__encrypt {
-        font-size: 1rem;
+        font-size: .8rem;
+        width: 8rem;
+        height: 3rem;
     }
 
     .button__decrypt {
-        font-size: 1rem;
+        font-size: .8rem;
+        width: 8rem;
+        height: 3rem;
     }
     
     .final-text {
         font-size: 1rem;
         position: absolute;
-        width: 80%;
+        width: 70%;
     }
 
     .button__copy {
         font-size: 1rem;
-        margin-left: 1rem;
         width: 10rem;
         height: 3rem;
         margin-left: 3.5rem;
+        margin-top: 17rem;
     }
 
     .footer {
-        margin-top: 11rem;
+        margin-top: 0;
     }
 }
