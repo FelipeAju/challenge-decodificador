@@ -177,20 +177,20 @@
 
     .button__encrypt {
         font-size: 1rem;
-        width: 9rem;
+        width: 10rem;
         height: 3rem;
     }
 
     .button__decrypt {
         font-size: 1rem;
-        width: 9rem;
+        width: 10rem;
         height: 3rem;
     }
     
     .final-text {
         font-size: 1rem;
         position: absolute;
-        width: 75%;
+        width: 80%;
         margin-top: 1rem;
     }
 
