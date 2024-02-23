@@ -4,36 +4,22 @@
     --primary-color: #E9ECF8;
     --secundary-color: #0A3871;
     --tertiary-color: #f3f4f8;
+
+    --primary-font: 'Inter', sans-serif;
+    --secundary-font: 'Montserrat', sans-serif;
 }
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    /* font-size: 32px;
-    font-weight: 400;
-    line-height: 150%; */
     box-sizing: border-box;
     background-color: var(--primary-color);
     
 }
 
-/* body {
-    box-sizing: border-box;
-    background-color: var(--primary-color);
-} */
-
-/* .header {
-    display: flex;
-    box-sizing: border-box;
-} */
-
 .logo {
     width: 8%;
     margin: 1rem 3rem 2rem 1rem;
-    /* margin-right: 4rem;
-    margin-bottom: 2rem;
-    p-left: 1rem; */
 }
 
 .header-image {
@@ -43,6 +29,7 @@
 }
 
 .caption {
+    font-family: var(--secundary-font);
     margin-left: 45rem;
 }
 
@@ -56,7 +43,7 @@
 }
 
 .input-text {
-    font-family: 'Inter', sans-serif;
+    font-family: var(--primary-font);
     font-size: 1.8rem;
     border: none;
     color: var(--secundary-color);
@@ -73,45 +60,22 @@
     outline: none;
 }
 
-.final-text {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.8rem;
-    background-color: var(--tertiary-color);
-    border: none;
-    border-radius: 1rem;
+.label-text {
+    font-family: var(--secundary-font);
     color: var(--secundary-color);
-    /* margin-left: 90px;*/
-    margin-top: .5rem;
-    position: fixed;
-}
-
-.final-text:focus {
-    outline: none;
+    font-size: .1rem;
 }
 
 .button {
     display: flex;
     margin-top: 1rem;
-    gap: 1.2rem;
-}
-
-.button__decrypt {
-    font-size: 1.2rem;
-    font-weight: 600;
-    background: var(--primary-color);
-    border: 1px solid var(--secundary-color);
-    border-radius: 1.5rem;
-    color: var(--secundary-color);
-    cursor: pointer;
-    /* height: 4rem;
-    margin-left: 30px; */
-    width: 20rem;
-    
+    gap: 2rem;
 }
 
 .button__encrypt {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 600;
+    font-family: var(--secundary-font);
     background-color: var(--secundary-color);
     border: 1px solid var(--secundary-color);
     border-radius: 1.5rem;
@@ -121,13 +85,37 @@
     height: 4.1rem;
 }
 
-.div-final-text {
-    flex-direction: column;
-} 
+.button__decrypt {
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: var(--secundary-font);
+    background: var(--primary-color);
+    border: 1px solid var(--secundary-color);
+    border-radius: 1.5rem;
+    color: var(--secundary-color);
+    cursor: pointer;
+    width: 20rem;   
+}
+
+.final-text {
+    font-family: var(--primary-font);
+    font-size: 1.8rem;
+    background-color: var(--tertiary-color);
+    border: none;
+    border-radius: 1rem;
+    color: var(--secundary-color);
+    margin-top: 2.8rem;
+    position: fixed;
+}
+
+.final-text:focus {
+    outline: none;
+}
 
 .button__copy {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 600;
+    font-family: var(--secundary-font);
     border: 1px solid var(--secundary-color);
     border-radius: 1.5rem;
     color: var(--secundary-color);
@@ -139,18 +127,13 @@
     width: 20rem;
 }
 
-.label-text {
-    color: var(--secundary-color);
-    font-size: .1rem;
-}
-
 .footer {
-    /* border: 1px solid var(--secundary-color); */
     padding: .5rem;
     background-color: var(--secundary-color);
     color: var(--tertiary-color);
     text-align: center;
     font-size: 1.2rem;
+    font-family: var(--secundary-font);
     margin-top: 3rem;
 }
 
