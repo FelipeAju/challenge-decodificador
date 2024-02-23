@@ -105,7 +105,7 @@
     border-radius: 1rem;
     color: var(--secundary-color);
     margin-top: 2.8rem;
-    position: fixed;
+    position: absolute;
 }
 
 .final-text:focus {
@@ -156,12 +156,33 @@
     .input-text {
         width: auto;
     }
+
+    .button {
+        gap: 1rem;
+    }
+
+    .button__encrypt {
+        font-size: 1rem;
+    }
+
+    .button__decrypt {
+        font-size: 1rem;
+    }
     
     .final-text {
         position: absolute;
-        width: auto;
+        width: 80%;
     }
+
+    .button__copy {
+        font-size: 1rem;
+        margin-left: 1rem;
+        width: 10rem;
+        height: 3rem;
+        margin-left: 3.5rem;
+    }
+
     .footer {
-        margin-top: auto;
+        margin-top: 11rem;
     }
 }
