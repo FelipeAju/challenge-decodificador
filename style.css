@@ -23,7 +23,7 @@
 }
 
 .header-image {
-    width: 36rem;
+    width: 26rem;
     height: 7rem;
     margin-left: 34.1rem;
 }
@@ -63,7 +63,7 @@
 .label-text {
     font-family: var(--secundary-font);
     color: var(--secundary-color);
-    font-size: .1rem;
+    font-size: 1rem;
 }
 
 .button {
@@ -121,10 +121,10 @@
     color: var(--secundary-color);
     cursor: pointer;
     height: 3.8rem;
-    margin-left: 5.5rem;
+    margin-left: 4.5rem;
     margin-top: 23rem;
     position: absolute;
-    width: 20rem;
+    width: 13rem;
 }
 
 .footer {
@@ -160,6 +160,10 @@
 
     ::placeholder {
         font-size: 1rem;
+    }
+
+    .label-text {
+        font-size: .5rem;
     }
 
     .button {
