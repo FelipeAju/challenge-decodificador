@@ -139,7 +139,7 @@
 
 @media (max-width: 1200px) {
     body {
-        height: 100vh;
+        height: 100%;
     }
     
     .logo {
@@ -155,7 +155,7 @@
     }
     .main {
         flex-direction: column;
-        gap: 1rem;
+        gap: 1.5rem;
     }
 
     .input-text {
@@ -168,7 +168,7 @@
     }
 
     .label-text {
-        font-size: .5rem;
+        font-size: .8rem;
     }
 
     .button {
@@ -176,33 +176,34 @@
     }
 
     .button__encrypt {
-        font-size: .8rem;
-        width: 8rem;
+        font-size: 1rem;
+        width: 9rem;
         height: 3rem;
     }
 
     .button__decrypt {
-        font-size: .8rem;
-        width: 8rem;
+        font-size: 1rem;
+        width: 9rem;
         height: 3rem;
     }
     
     .final-text {
         font-size: 1rem;
         position: absolute;
-        width: 70%;
+        width: 75%;
         margin-top: 1rem;
     }
 
     .button__copy {
-        font-size: .8rem;
+        font-size: 1rem;
         width: 10rem;
         height: 3rem;
-        margin-left: 3.5rem;
+        margin-left: 3.8rem;
         margin-top: 10.5rem;
     }
 
     .footer {
-        font-size: .7rem;
+        font-size: .8rem;
+        margin-top: 15rem;
     }
 }
