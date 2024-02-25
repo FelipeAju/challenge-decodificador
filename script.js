@@ -8,7 +8,7 @@ function buttonEncrypt() {
 }
 
 function encrypt(stringEncrypt) {
-    let key = [['e' , 'enter'] , ['i' , 'imes'] , ['a' , 'ai'] , ['o', '0ber'] , ['u' , 'ufat']];
+    let key = [['e' , 'enter'] , ['i' , 'imes'] , ['a' , 'ai'] , ['o', 'ober'] , ['u' , 'ufat']];
     stringEncrypt = stringEncrypt.toLowerCase();
 
     for(let i = 0; i < key.length; i++) {
@@ -26,7 +26,7 @@ function buttonDecrypt () {
 }
 
 function decrypt(stringDecrypt) {
-    let key = [["e" , "enter"] , ["i" , "imes"], ["a" ,"ai"] , ["o" , "0ber"], ["u" , "ufat"]];
+    let key = [["e" , "enter"] , ["i" , "imes"] , ["a" ,"ai"] , ["o" , "ober"] , ["u" , "ufat"]];
     stringDecrypt = stringDecrypt.toLowerCase();
 
     for (let i = 0; i < key.length; i++) {
